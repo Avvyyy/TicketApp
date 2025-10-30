@@ -9,7 +9,7 @@ export interface Ticket {
   status: TicketStatus;
   createdAt: number;
   updatedAt: number;
-}
+} 
 
 export const getTickets = (): Ticket[] => {
   const ticketsData = localStorage.getItem(TICKETS_KEY);
